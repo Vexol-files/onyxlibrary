@@ -45,7 +45,7 @@ if typeof(clonefunction) == "function" then
 end
 
 local SaveManager = {} do
-    SaveManager.Folder = "LinoriaLibSettings"
+    SaveManager.Folder = "Onyx"
     SaveManager.SubFolder = ""
     SaveManager.Ignore = {}
     SaveManager.Library = nil
