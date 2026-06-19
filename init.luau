@@ -1,5 +1,5 @@
 return {
-    Library = require("./linorialibfork/Library"),
-    SaveManager = require("./linorialibfork/addons/SaveManager"),
-    ThemeManager = require("./linorialibfork/addons/ThemeManager")
+    Library = require("./vexol-files/Library"),
+    SaveManager = require("./vexol-files/addons/SaveManager"),
+    ThemeManager = require("./vexol-files/addons/ThemeManager")
 }
