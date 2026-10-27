@@ -3091,7 +3091,7 @@ function Library:CreateWindow(...)
         Fading = false
     end
 
---    Window:SetBackgroundImage(WI.BackgroundImage or "")
+    Window:SetBackgroundImage(WI.BackgroundImage or "")
     if WI.AutoShow then task.spawn(function() Window:Toggle(true) end) end
 
     Window.Holder = Outer
