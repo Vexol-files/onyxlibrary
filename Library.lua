@@ -1,13 +1,3 @@
---[[
-    ✦ Linoria Obsidian ✦
-    Pełny redesign. API 100% zgodne z oryginałem.
-    Nowe: logo base64 z cache na dysku (256x256), glass/neon styl.
-
-    Użycie logo:
-        Library:SetLogo("data:image/png;base64,....")
-        Library:SetLogo("rbxassetid://12345")
-]]
-
 local cloneref = (cloneref or clonereference or function(i) return i end)
 local InputService = cloneref(game:GetService("UserInputService"))
 local TextService  = cloneref(game:GetService("TextService"))
